@@ -59,6 +59,8 @@
     <Compile Include="Assets\SphereController.cs" />
     <Compile Include="Assets\CameraMove.cs" />
     <Compile Include="Assets\Triggers.cs" />
+    <Compile Include="Assets\SphereController.cs" />
+    <Compile Include="Assets\PlayerNavMeshController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

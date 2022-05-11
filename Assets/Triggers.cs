@@ -6,6 +6,7 @@ public class Triggers : MonoBehaviour
 {
     public GameObject plane;
     public Transform planepos;
+    public Transform planebegining;
 
 
     // Start is called before the first frame update
@@ -18,6 +19,11 @@ public class Triggers : MonoBehaviour
     void OnTriggerEnter()
     {
         Instantiate(plane, planepos.position, planepos.rotation);
-    }   
+    }
+
+    /*private void OnTriggerExit(Collider other)
+    {
+        if (Vector3);
+    }*/
 }   
 
